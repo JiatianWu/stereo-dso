@@ -66,22 +66,22 @@ Below is the trajectory that DSO runs on Kitti 05. We can see that the scale of 
 
 Stereo DSO can achieve much better accuracy and faster speed:
 
-![05sdso](http://ovms74foj.bkt.clouddn.com/05sdso.png?imageView2/0/w/400/h/400)
+![05sdso](http://ovms74foj.bkt.clouddn.com/05sdso.png?imageView2/0/w/402/h/400)
 
 It is evaluated that stereo DSO achieves about 1.1% ~ 4.2% translation error, 0.001deg/m ~ 0.0053deg/m rotation error, with running time of 63ms per frame.
 
-![05tl](http://ovms74foj.bkt.clouddn.com/05_tl.png)
+![05tl](http://ovms74foj.bkt.clouddn.com/05_tl.png?imageView2/0/w/402/h/400)
 
-![05rl](http://ovms74foj.bkt.clouddn.com/05_rl.png)
+![05rl](http://ovms74foj.bkt.clouddn.com/05_rl.png?imageView2/0/w/402/h/400)
 
 We also tested stereo DSO on Kitti 00.
 It achieves about 1.3% ~ 3.7% translation error, 0.002 deg/m ~ 0.007deg/m rotation error, with running time of 86ms per frame. 
 
-![00sdso](http://ovms74foj.bkt.clouddn.com/00.png?imageView2/0/w/400/h/400)
+![00sdso](http://ovms74foj.bkt.clouddn.com/00.png?imageView2/0/w/402/h/402)
 
-![00tl](http://ovms74foj.bkt.clouddn.com/00_tl.png)
+![00tl](http://ovms74foj.bkt.clouddn.com/00_tl.png?imageView2/0/w/402/h/400)
 
-![00rl](http://ovms74foj.bkt.clouddn.com/00_rl.png)
+![00rl](http://ovms74foj.bkt.clouddn.com/00_rl.png?imageView2/0/w/402/h/400)
 
 In conlcusion, stereo DSO have several advantages comparing with DSO:
 
