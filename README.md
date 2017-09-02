@@ -68,7 +68,7 @@ Stereo DSO can achieve much better accuracy and faster speed:
 
 ![05sdso](http://ovms74foj.bkt.clouddn.com/05sdso.png?imageView2/0/w/400/h/400)
 
-It is evaluated that stereo DSO achieves about 1.1%~4.2% translation error, 0.001deg/m ~ 0.0053deg/m rotation error, with running time of 63ms per frame.
+It is evaluated that stereo DSO achieves about 1.1% ~ 4.2% translation error, 0.001deg/m ~ 0.0053deg/m rotation error, with running time of 63ms per frame.
 
 ![05tl](http://ovms74foj.bkt.clouddn.com/05_tl.png)
 
