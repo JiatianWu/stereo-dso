@@ -1,6 +1,6 @@
 ﻿# Direct Sparse Odometry with Stereo Cameras 
 
-标签（空格分隔）： sdso
+Stereo DSO
 
 ---
 Stereo DSO is a real-time stereo SLAM system based on DSO. It is developed by members of Autonomous Driving Group at Horizon Robotics, Inc. It runs on laptops with CPU and provides localization and mapping services for self-driving cars. A demonstration is provides to showcase its capability.
@@ -68,14 +68,14 @@ Stereo DSO can achieve much better accuracy and faster speed:
 
 ![05sdso](http://ovms74foj.bkt.clouddn.com/05sdso.png?imageView2/0/w/400/h/400)
 
-It is evaluated that stereo DSO achieves about 1.1%~4.2% translation error, 0.001deg/m~0.0053deg/m rotation error, with running time of 63ms per frame.
+It is evaluated that stereo DSO achieves about 1.1%~4.2% translation error, 0.001deg/m ~ 0.0053deg/m rotation error, with running time of 63ms per frame.
 
 ![05tl](http://ovms74foj.bkt.clouddn.com/05_tl.png)
 
 ![05rl](http://ovms74foj.bkt.clouddn.com/05_rl.png)
 
 We also tested stereo DSO on Kitti 00.
-It achieves about 1.3%~3.7% translation error, 0.002 deg/m~0.007deg/m rotation error, with running time of 86ms per frame. 
+It achieves about 1.3% ~ 3.7% translation error, 0.002 deg/m ~ 0.007deg/m rotation error, with running time of 86ms per frame. 
 
 ![00sdso](http://ovms74foj.bkt.clouddn.com/00.png?imageView2/0/w/400/h/400)
 
