@@ -68,14 +68,14 @@ Stereo DSO can achieve much better accuracy and faster speed:
 
 ![05sdso](http://ovms74foj.bkt.clouddn.com/05sdso.png?imageView2/0/w/402/h/400)
 
-It is evaluated that stereo DSO achieves about 1.1% ~ 4.2% translation error, 0.001deg/m ~ 0.0053deg/m rotation error, with running time of 63ms per frame.
+It is evaluated that stereo DSO achieves about 1.1% ~ 4.2% translation error, 0.001deg/m ~ 0.0053deg/m rotation error, with running time of 53ms per frame.
 
 ![05tl](http://ovms74foj.bkt.clouddn.com/05_tl.png?imageView2/0/w/402/h/400)
 
 ![05rl](http://ovms74foj.bkt.clouddn.com/05_rl.png?imageView2/0/w/402/h/400)
 
 We also tested stereo DSO on Kitti 00.
-It achieves about 1.3% ~ 3.7% translation error, 0.002 deg/m ~ 0.007deg/m rotation error, with running time of 86ms per frame. 
+It achieves about 1.3% ~ 3.7% translation error, 0.002 deg/m ~ 0.007deg/m rotation error, with running time of 56ms per frame. 
 
 ![00sdso](http://ovms74foj.bkt.clouddn.com/00.png?imageView2/0/w/402/h/402)
 
@@ -87,7 +87,7 @@ In conlcusion, stereo DSO have several advantages comparing with DSO:
 
 - No need to initialize. Stereo DSO initializes immediately.
 - Much better scale and accuracy. DSO performs bad on kitti dataset, especially in scale measurements. Stereo DSO reduced the translation and rotation error largely.
-- Real-time speed. Stereo DSO runs at typically 15 frames per sec.
+- Real-time speed. Stereo DSO runs at typically 20 frames per sec.
 - Robustness. Stereo DSO seldomly gets lost, but DSO usually fails to initialize if the movement during initialization is not large enough.
 #### 5. Acknowledgements
 Stereo DSO is developed at Horizon Robotics, Inc. Our work is based on [DSO](https://github.com/JakobEngel/dso).
